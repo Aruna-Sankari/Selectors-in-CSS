@@ -1,0 +1,62 @@
+<html>
+<head>
+<title>Selectors</title>
+<style>
+a{
+font-size:18px;
+}
+a:link{
+color:red;
+}
+a:visited{
+color:blue;
+}
+a:hover{
+color:hotpink;
+}
+a:active{
+color:green;
+}
+h2::first-letter{
+color:brown;
+font-size:35px;
+}
+p::first-line{
+color:mediumseagreen;
+word-spacing:10px;
+font-size:24px;
+}
+h4::after{
+content:"Potter";
+font-size:28px;
+letter-spacing:3px;
+color:orange;
+}
+h3::before{
+content:url("call.png");
+}
+li::marker{
+color:crimson;
+}
+::selection{
+background-color:cyan;
+color:black;
+}
+</style>
+</head>
+<body>
+<h1>1.Pseudo Class Selector</h1>
+<a href="#">Click Me</a>
+<hr size="3px" color="black">
+<h1>2.Pseudo Element Selector</h1>
+<h2>Welcome</h2>
+<p>Social media is a computer technology that lets people share ideas, opinions, and information through online networks and communities. People use web-based software or apps on a computer, tablet, or phone to use social media. Social media on the Internet make it easy to quickly and electronically share personal information, documents, movies, and photos. Even though people use social media a lot in the U.S. and Europe, the countries that use it the most are in Asia, like Indonesia.Social media started to keep in touch with friends and family, but businesses soon saw it as a way to reach customers through a popular new way to talk. Social media is powerful because it lets you connect with and share information with anyone on Earth or many people at once.</p>
+<h4>Harry</h4>
+<h3>Truecaller</h3>
+<ul>
+<li>Red</li>
+<li>Blue</li>
+<li>Pink</li>
+</ul>
+</body>
+</html>
